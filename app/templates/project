@@ -2,11 +2,11 @@
     <div class='well'>
         <h3>{{title}}</h3>
 
-        {{subprojects}}
+        {{#subprojects}}
             <div class='row-fluid'>
                 <div class='span6'>
                     <h5>
-                        <a href='{{github-repo}}' class=''>
+                        <a href='{{githubRepo}}' class=''>
                             <i class='icon icon-github'></i> {{title}}
                         </a>
                     </h5>

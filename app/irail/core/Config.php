@@ -5,7 +5,7 @@
  * @author: Michiel Vancoillie (michiel@irail.be)
  */
 
-namespace iRail\core;
+namespace irail\core;
 
 class Config{
     private static $config = array();

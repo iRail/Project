@@ -28,7 +28,7 @@
             </div>
             <div class="row">
                 <div id="projects">
-                    {{projects}}
+                    {{{projects}}}
                 </div>
             </div>
         </div>

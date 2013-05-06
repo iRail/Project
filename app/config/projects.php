@@ -8,7 +8,7 @@ return array(
     array(
         "title" => "Data/API",
         "description" => "",
-        "projects" => array(
+        "subprojects" => array(
             array(
                 "title" => "DeLijnResource",
                 "github" => "iRail/DeLijnResource",
@@ -27,7 +27,7 @@ return array(
     array(
         "title" => "Web interface",
         "description" => "",
-        "projects" => array(
+        "subprojects" => array(
         ),
     ),
 );
