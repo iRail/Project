@@ -12,5 +12,10 @@
     "require": {
         "php": ">=5.3",
         "mustache/mustache" : "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "iRail": "app/"
+        }
     }
 }

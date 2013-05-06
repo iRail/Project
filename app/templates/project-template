@@ -2,7 +2,7 @@
     <div class='well'>
         <h3>{{title}}</h3>
 
-        {{#each subprojects}}
+        {{subprojects}}
             <div class='row-fluid'>
                 <div class='span6'>
                     <h5>
@@ -17,6 +17,6 @@
                     </div>
                 </div>
             </div>
-        {{/each}}
+        {{/subprojects}}
     </div>
 </div>

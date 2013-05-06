@@ -5,9 +5,10 @@
  * @author: Michiel Vancoillie (michiel@irail.be)
  */
 
+use iRail\core\Config;
 
 // Load config files
-
+Config::load();
 
 // Start mustache engine
 $m = new Mustache_Engine;
