@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The iRail Project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="assets/css/style.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="brand" href="#">iRail</a>
+                    <ul class="nav">
+                        <li class="active"><a href="#">Projects</a></li>
+                        <li><a href="#">Getting started</a></li>
+                        <li><a href="#">Summer of code</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <h2>Projects</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div id="projects">
+                    {{projects}}
+                </div>
+            </div>
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+<div class="span6">
+    <div class='well'>
+        <h3>{{title}}</h3>
+
+        {{#each subprojects}}
+            <div class='row-fluid'>
+                <div class='span6'>
+                    <h5>
+                        <a href='{{github-repo}}' class=''>
+                            <i class='icon icon-github'></i> {{title}}
+                        </a>
+                    </h5>
+                </div>
+                <div class='span6'>
+                    <div class="progress">
+                        <div class="bar bar-success"></div>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</div>

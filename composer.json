@@ -1,0 +1,16 @@
+{
+    "name": "iRail/Project",
+    "description": "Project page for iRail",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Michiel Vancoillie",
+            "email": "michiel@irail.be",
+            "homepage": "http://michielvancoillie.be"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "mustache/mustache" : "dev-master"
+    }
+}
